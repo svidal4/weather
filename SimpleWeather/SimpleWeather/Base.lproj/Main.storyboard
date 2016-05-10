@@ -3,8 +3,56 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="futuralt-condensedlight-opentype.otf">
+            <string>FuturaLT-CondensedLight</string>
+        </mutableArray>
+        <mutableArray key="futuralt-extrabold-opentype.otf">
+            <string>FuturaLT-ExtraBold</string>
+        </mutableArray>
+        <mutableArray key="ufonts.com_futuralt-book-opentype.otf">
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+            <string>FuturaLT-Book</string>
+        </mutableArray>
+        <mutableArray key="ufonts.com_futuralt-condensedextrabold-opentype.otf">
+            <string>FuturaLT-CondensedExtraBold</string>
+            <string>FuturaLT-CondensedExtraBold</string>
+            <string>FuturaLT-CondensedExtraBold</string>
+            <string>FuturaLT-CondensedExtraBold</string>
+            <string>FuturaLT-CondensedExtraBold</string>
+            <string>FuturaLT-CondensedExtraBold</string>
+            <string>FuturaLT-CondensedExtraBold</string>
+            <string>FuturaLT-CondensedExtraBold</string>
+            <string>FuturaLT-CondensedExtraBold</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -15,58 +63,261 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="13H" translatesAutoresizingMaskIntoConstraints="NO" id="Gua-AC-rlv">
-                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
-                            </imageView>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p40-AY-Vxl">
-                                <rect key="frame" x="0.0" y="201" width="600" height="399"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="SLY-wa-WgM">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="399"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    <subviews>
-                                        <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LGE-Tt-6Ga">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="399"/>
-                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="DqY-De-6sd">
-                                                <rect key="frame" x="0.0" y="0.0" width="600" height="399"/>
-                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                            </view>
-                                            <vibrancyEffect>
-                                                <blurEffect style="light"/>
-                                            </vibrancyEffect>
-                                        </visualEffectView>
-                                    </subviews>
-                                </view>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="LGE-Tt-6Ga" secondAttribute="trailing" id="Kew-yC-iBy"/>
-                                    <constraint firstItem="LGE-Tt-6Ga" firstAttribute="leading" secondItem="p40-AY-Vxl" secondAttribute="leading" id="MYC-zE-cKQ"/>
-                                    <constraint firstItem="LGE-Tt-6Ga" firstAttribute="top" secondItem="p40-AY-Vxl" secondAttribute="top" id="UVk-pp-vHT"/>
-                                    <constraint firstAttribute="bottom" secondItem="LGE-Tt-6Ga" secondAttribute="bottom" id="gJn-Rs-jpL"/>
-                                </constraints>
-                                <blurEffect style="light"/>
-                            </visualEffectView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="32" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xvw-Vr-elm">
+                                <rect key="frame" x="55" y="132" width="267" height="173"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-CondensedLight" family="Futura LT" pointSize="147"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BROOKYN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="obN-w1-hA5">
+                                <rect key="frame" x="20" y="20" width="335" height="21"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-ExtraBold" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clear Sky" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pqi-6v-7h7">
+                                <rect key="frame" x="60" y="73" width="295" height="21"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="22"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="34" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Uu-We-VCK">
+                                <rect key="frame" x="197" y="162" width="158" height="53"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="31"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="18" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sPy-A9-PQc">
+                                <rect key="frame" x="197" y="204" width="158" height="53"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="31"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNt-HV-yJm">
+                                <rect key="frame" x="211" y="160" width="55" height="58"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="44"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pressure:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D4x-uR-Euu">
+                                <rect key="frame" x="20" y="319" width="61" height="29"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10.9" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OyC-8X-mr9">
+                                <rect key="frame" x="66" y="319" width="61" height="29"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Humidity:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6JL-6s-d3d">
+                                <rect key="frame" x="260" y="319" width="61" height="29"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="83%" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pWQ-tk-ntj">
+                                <rect key="frame" x="321" y="319" width="34" height="29"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="|" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6f-AZ-tJE">
+                                <rect key="frame" x="157" y="319" width="61" height="29"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="15" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="og1-3l-APg">
+                                <rect key="frame" x="66" y="402" width="32" height="29"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-CondensedExtraBold" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="28" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIU-L0-g4U">
+                                <rect key="frame" x="151" y="402" width="32" height="29"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-CondensedExtraBold" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="65" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RE2-gA-p0e">
+                                <rect key="frame" x="239" y="402" width="32" height="29"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-CondensedExtraBold" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100 %" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wj9-UL-tjT">
+                                <rect key="frame" x="322" y="402" width="35" height="29"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-CondensedExtraBold" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QS0-Tc-2ae">
+                                <rect key="frame" x="66" y="421" width="32" height="29"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c8D-Cx-5vu">
+                                <rect key="frame" x="151" y="421" width="32" height="29"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="9" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k15-mw-07c">
+                                <rect key="frame" x="239" y="421" width="32" height="29"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12 hs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8C-7c-P4d">
+                                <rect key="frame" x="325" y="421" width="32" height="29"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="T" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gCo-LC-woD">
+                                <rect key="frame" x="91" y="528" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-CondensedExtraBold" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="T" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g1o-98-6Q3">
+                                <rect key="frame" x="254" y="528" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-CondensedExtraBold" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="F" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sYn-17-NGs">
+                                <rect key="frame" x="327" y="528" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-CondensedExtraBold" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="M" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gxQ-iz-mYP">
+                                <rect key="frame" x="20" y="528" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-CondensedExtraBold" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="14" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z6d-qb-Hms">
+                                <rect key="frame" x="89" y="577" width="30" height="20"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nzP-yP-EVH">
+                                <rect key="frame" x="171" y="577" width="30" height="20"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gCq-v8-bFD">
+                                <rect key="frame" x="252" y="577" width="30" height="20"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKj-PI-9LC">
+                                <rect key="frame" x="325" y="577" width="30" height="20"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XTe-Hs-xbl">
+                                <rect key="frame" x="18" y="577" width="30" height="20"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="W" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZX-Um-9ui">
+                                <rect key="frame" x="173" y="528" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-CondensedExtraBold" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="33" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yGD-xr-wJ8">
+                                <rect key="frame" x="89" y="595" width="30" height="20"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="45" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b0h-45-r1M">
+                                <rect key="frame" x="171" y="595" width="30" height="20"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="21" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gvt-TS-URX">
+                                <rect key="frame" x="252" y="595" width="30" height="20"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="23" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ucD-sj-OVr">
+                                <rect key="frame" x="325" y="595" width="30" height="20"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ptP-0Z-3pM">
+                                <rect key="frame" x="18" y="595" width="30" height="20"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3p0-5h-QhN">
+                                <rect key="frame" x="89" y="614" width="30" height="20"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="20%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XEB-gp-YQP">
+                                <rect key="frame" x="171" y="614" width="30" height="20"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0f-IB-f3w">
+                                <rect key="frame" x="252" y="614" width="30" height="20"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tda-u2-6TV">
+                                <rect key="frame" x="324" y="614" width="32" height="20"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8y9-NV-ISm">
+                                <rect key="frame" x="18" y="614" width="30" height="20"/>
+                                <fontDescription key="fontDescription" name="FuturaLT-Book" family="Futura LT" pointSize="12"/>
+                                <color key="textColor" red="0.17981421947479248" green="0.19551759958267212" blue="0.22875753045082092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.71800822019577026" green="0.050173245370388031" blue="0.1308535635471344" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Gua-AC-rlv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1uy-RB-azS"/>
-                            <constraint firstAttribute="trailing" secondItem="p40-AY-Vxl" secondAttribute="trailing" id="78g-6S-AmV"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="p40-AY-Vxl" secondAttribute="bottom" id="Nar-oe-ju3"/>
-                            <constraint firstAttribute="trailing" secondItem="Gua-AC-rlv" secondAttribute="trailing" id="Sxc-LC-91e"/>
-                            <constraint firstItem="Gua-AC-rlv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="aIE-1Y-PPf"/>
-                            <constraint firstItem="p40-AY-Vxl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" multiplier="1000/100" constant="1" id="rNG-Ig-fp4"/>
-                            <constraint firstItem="p40-AY-Vxl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xV7-dQ-XSc"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Gua-AC-rlv" secondAttribute="bottom" id="zoa-XV-xRH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Xvw-Vr-elm" secondAttribute="trailing" constant="33" id="KRK-UW-24d"/>
+                            <constraint firstItem="Xvw-Vr-elm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="112" id="X2B-cD-LaD"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Xvw-Vr-elm" secondAttribute="bottom" constant="362" id="lyM-5n-a0j"/>
+                            <constraint firstItem="Xvw-Vr-elm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="35" id="sep-ZE-I2h"/>
                         </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="labelTemp" destination="Xvw-Vr-elm" id="RUl-bw-ze4"/>
+                        <outlet property="view" destination="Xvw-Vr-elm" id="Br2-aD-5PX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="326" y="416"/>
+            <point key="canvasLocation" x="325.5" y="415.5"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="13H" width="2136" height="1275"/>
-    </resources>
 </document>
