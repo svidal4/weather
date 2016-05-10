@@ -14,10 +14,13 @@
 		64D1A3281CDA94AD008A7FB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D1A3261CDA94AD008A7FB2 /* LaunchScreen.storyboard */; };
 		64D1A3331CDA94AD008A7FB2 /* SimpleWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D1A3321CDA94AD008A7FB2 /* SimpleWeatherTests.swift */; };
 		64D1A33E1CDA94AD008A7FB2 /* SimpleWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D1A33D1CDA94AD008A7FB2 /* SimpleWeatherUITests.swift */; };
+<<<<<<< HEAD
 		64E987A81CE23DE400A1CD2B /* futuralt-condensedlight-opentype.otf in Resources */ = {isa = PBXBuildFile; fileRef = 64E987A71CE23DE400A1CD2B /* futuralt-condensedlight-opentype.otf */; };
 		64E987AA1CE23F1200A1CD2B /* futuralt-extrabold-opentype.otf in Resources */ = {isa = PBXBuildFile; fileRef = 64E987A91CE23F1200A1CD2B /* futuralt-extrabold-opentype.otf */; };
 		64E987AC1CE23FEB00A1CD2B /* ufonts.com_futuralt-book-opentype.otf in Resources */ = {isa = PBXBuildFile; fileRef = 64E987AB1CE23FEB00A1CD2B /* ufonts.com_futuralt-book-opentype.otf */; };
 		64E987AE1CE241A100A1CD2B /* ufonts.com_futuralt-condensedextrabold-opentype.otf in Resources */ = {isa = PBXBuildFile; fileRef = 64E987AD1CE241A100A1CD2B /* ufonts.com_futuralt-condensedextrabold-opentype.otf */; };
+=======
+>>>>>>> bdf1bd86ae593b65562bfccda674e0e693c5865c
 		9E79A36D1CDEDA9000A5C984 /* cityName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E79A36C1CDEDA9000A5C984 /* cityName.swift */; };
 		9E79A36F1CDEDD0E00A5C984 /* mainWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E79A36E1CDEDD0E00A5C984 /* mainWeather.swift */; };
 		9E79A3711CDEE1A700A5C984 /* Rain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E79A3701CDEE1A700A5C984 /* Rain.swift */; };
@@ -54,10 +57,13 @@
 		64D1A3391CDA94AD008A7FB2 /* SimpleWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D1A33D1CDA94AD008A7FB2 /* SimpleWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWeatherUITests.swift; sourceTree = "<group>"; };
 		64D1A33F1CDA94AD008A7FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		64E987A71CE23DE400A1CD2B /* futuralt-condensedlight-opentype.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "futuralt-condensedlight-opentype.otf"; sourceTree = "<group>"; };
 		64E987A91CE23F1200A1CD2B /* futuralt-extrabold-opentype.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "futuralt-extrabold-opentype.otf"; sourceTree = "<group>"; };
 		64E987AB1CE23FEB00A1CD2B /* ufonts.com_futuralt-book-opentype.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ufonts.com_futuralt-book-opentype.otf"; sourceTree = "<group>"; };
 		64E987AD1CE241A100A1CD2B /* ufonts.com_futuralt-condensedextrabold-opentype.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ufonts.com_futuralt-condensedextrabold-opentype.otf"; sourceTree = "<group>"; };
+=======
+>>>>>>> bdf1bd86ae593b65562bfccda674e0e693c5865c
 		9E79A36C1CDEDA9000A5C984 /* cityName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cityName.swift; sourceTree = "<group>"; };
 		9E79A36E1CDEDD0E00A5C984 /* mainWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainWeather.swift; sourceTree = "<group>"; };
 		9E79A3701CDEE1A700A5C984 /* Rain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rain.swift; sourceTree = "<group>"; };

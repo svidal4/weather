@@ -21,9 +21,13 @@ class ViewController: UIViewController {
     func jsonParser() {
         let APIKEY = "81d462d12f0bad3f8600b88769a5576e"
    
+<<<<<<< HEAD
         var urlPath: String = "http://api.openweathermap.org/data/2.5/forecast/city?q=London&units=metric&APPID=81d462d12f0bad3f8600b88769a5576e&units=metric"
         //api.openweathermap.org/data/2.5/find?q=London&units=metric
         
+=======
+        var urlPath: String = "http://api.openweathermap.org/data/2.5/forecast/city?q=brooklyn&APPID=81d462d12f0bad3f8600b88769a5576e&units=metric"
+>>>>>>> bdf1bd86ae593b65562bfccda674e0e693c5865c
         urlPath += APIKEY
         print(urlPath)
         
@@ -40,13 +44,18 @@ class ViewController: UIViewController {
 //                let result2 = (json["temp"] as! String)
 //                self.labelTemp?.text = result2
                 
+<<<<<<< HEAD
                 //let a=1
+=======
+                let a=1
+>>>>>>> bdf1bd86ae593b65562bfccda674e0e693c5865c
                 
                  let list = json.objectForKey("list") as? [[String:AnyObject]]
                     let element = list![0] as! Dictionary
                         let weather = element["main"]
                         let temp = weather!["temp"] as! Int
                         self.labelTemp?.text = String(temp)
+<<<<<<< HEAD
              
                                 print("************************")
                                 print("finished downloading data " + String(json))
@@ -60,6 +69,29 @@ class ViewController: UIViewController {
                             } .resume()
 
                 
+=======
+                
+                
+        
+                    
+                
+                
+
+                
+                
+                                print("************************")
+                                print("finished downloading data " + String(json))
+                
+                
+                            } catch let error as NSError {
+                                print("Failed to load: \(error.localizedDescription)")
+                            }
+                
+                
+                            } .resume()
+
+                
+>>>>>>> bdf1bd86ae593b65562bfccda674e0e693c5865c
         
     }
     
@@ -67,8 +99,14 @@ class ViewController: UIViewController {
     
     
     override func viewDidLoad() {
+<<<<<<< HEAD
     
          jsonParser()
+=======
+
+        jsonParser()
+        
+>>>>>>> bdf1bd86ae593b65562bfccda674e0e693c5865c
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
