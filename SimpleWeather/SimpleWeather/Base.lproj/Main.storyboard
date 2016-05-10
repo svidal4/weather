@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
@@ -15,22 +16,22 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="13H" translatesAutoresizingMaskIntoConstraints="NO" id="Gua-AC-rlv">
-                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </imageView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p40-AY-Vxl">
-                                <rect key="frame" x="0.0" y="201" width="600" height="399"/>
+                                <rect key="frame" x="0.0" y="201" width="375" height="466"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="SLY-wa-WgM">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="399"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="466"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LGE-Tt-6Ga">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="399"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="466"/>
                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="DqY-De-6sd">
-                                                <rect key="frame" x="0.0" y="0.0" width="600" height="399"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="466"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             </view>
                                             <vibrancyEffect>
@@ -47,19 +48,34 @@
                                 </constraints>
                                 <blurEffect style="light"/>
                             </visualEffectView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xvw-Vr-elm">
+                                <rect key="frame" x="80" y="-21" width="215" height="339"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Gua-AC-rlv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1uy-RB-azS"/>
                             <constraint firstAttribute="trailing" secondItem="p40-AY-Vxl" secondAttribute="trailing" id="78g-6S-AmV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Xvw-Vr-elm" secondAttribute="trailing" constant="60" id="KRK-UW-24d"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="p40-AY-Vxl" secondAttribute="bottom" id="Nar-oe-ju3"/>
                             <constraint firstAttribute="trailing" secondItem="Gua-AC-rlv" secondAttribute="trailing" id="Sxc-LC-91e"/>
+                            <constraint firstItem="Xvw-Vr-elm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-41" id="X2B-cD-LaD"/>
                             <constraint firstItem="Gua-AC-rlv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="aIE-1Y-PPf"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Xvw-Vr-elm" secondAttribute="bottom" constant="349" id="lyM-5n-a0j"/>
                             <constraint firstItem="p40-AY-Vxl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" multiplier="1000/100" constant="1" id="rNG-Ig-fp4"/>
+                            <constraint firstItem="Xvw-Vr-elm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="60" id="sep-ZE-I2h"/>
                             <constraint firstItem="p40-AY-Vxl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xV7-dQ-XSc"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Gua-AC-rlv" secondAttribute="bottom" id="zoa-XV-xRH"/>
                         </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="labelTemp" destination="Xvw-Vr-elm" id="RUl-bw-ze4"/>
+                        <outlet property="view" destination="Xvw-Vr-elm" id="Br2-aD-5PX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
